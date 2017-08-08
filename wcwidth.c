@@ -114,7 +114,7 @@
  * Latest version: http://www.cl.cam.ac.uk/~mgk25/ucs/wcwidth.c
  */
 
-#include <wcwidth.h>
+#include "xterm/wcwidth.h"
 
 struct interval {
   unsigned long first;
